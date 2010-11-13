@@ -1,5 +1,8 @@
 require 'spec_helper'
 
 describe "home/index.html.erb" do
-  pending "add some examples to (or delete) #{__FILE__}"
+  it "should have XP Manchester in a h1 tag" do
+    render
+    rendered.should have_selector("h1", :content => "XP Manchester")
+  end
 end
