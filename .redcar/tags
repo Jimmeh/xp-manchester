@@ -1,8 +1,11 @@
-1289671862
+1289672274
 Application	/home/jimmeh/xp-manchester/config/application.rb	  class Application 
 ApplicationController	/home/jimmeh/xp-manchester/app/controllers/application_controller.rb	class ApplicationController 
 ApplicationHelper	/home/jimmeh/xp-manchester/app/helpers/application_helper.rb	module ApplicationHelper
 BrowsingTest	/home/jimmeh/xp-manchester/test/performance/browsing_test.rb	class BrowsingTest 
+HomeController	/home/jimmeh/xp-manchester/app/controllers/home_controller.rb	class HomeController 
+HomeHelper	/home/jimmeh/xp-manchester/app/helpers/home_helper.rb	module HomeHelper
 TestCase	/home/jimmeh/xp-manchester/test/test_helper.rb	class ActiveSupport::TestCase
 XpManchester	/home/jimmeh/xp-manchester/config/application.rb	module XpManchester
+index	/home/jimmeh/xp-manchester/app/controllers/home_controller.rb	  def index
 test_homepage	/home/jimmeh/xp-manchester/test/performance/browsing_test.rb	  def test_homepage
