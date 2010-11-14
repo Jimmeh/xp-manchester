@@ -1,0 +1,25 @@
+* 
+{
+  margin:0;
+  font-family:"verdana";
+}
+
+#headerContainer 
+{
+  width:960px;
+  height:130px;
+  margin:0 auto;
+  background-color:#333;
+  color:#FFF;  
+}
+
+#headerContainer h1
+{
+  padding:10px;
+  font-size:42pt;
+}
+
+#headerContainer a
+{
+  color:#FFF;
+}
